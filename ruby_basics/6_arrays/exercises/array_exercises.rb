@@ -11,7 +11,7 @@ def third_element(array)
 end
 
 def last_three_elements(array)
-  array[-3..-1]
+  array.pop(3)
 end
 
 def add_element(array)
